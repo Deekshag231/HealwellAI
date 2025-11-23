@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import { useStorage } from '../context/StorageContext';
 import { Heart, Target, Zap, Mail, Phone, MapPin, User } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export default function About() {
   const storage = useStorage();

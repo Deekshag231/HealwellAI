@@ -16,7 +16,7 @@ export default function AnimatedBackground({
 }: AnimatedBackgroundProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gradientRef = useRef<HTMLDivElement>(null);
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number>(0);
   const particlesRef = useRef<Array<{
     x: number;
     y: number;

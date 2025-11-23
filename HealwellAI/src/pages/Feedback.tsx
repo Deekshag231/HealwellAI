@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import { useStorage } from '../context/StorageContext';
 import { MessageSquare, Send, Star } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export default function Feedback() {
   const storage = useStorage();
