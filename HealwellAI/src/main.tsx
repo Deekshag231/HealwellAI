@@ -1,5 +1,7 @@
  import App from "./App.tsx";
   import "./index.css";
+    import { createRoot } from "react-dom/client"; 
+      import React from "react";
 
   // Cleanup any lingering portal elements from ChatbotButton
   // Remove any elements that look like the chatbot button
